@@ -128,13 +128,13 @@ After that, you will be able to run Behat with:
     $ bin/behat -h
 
 And this executable will already autoload all the needed classes
-in order to **activate** MinkExtension through ``behat.yml``.
+in order to **activate** MinkExtension through ``behat.yml`` in the ``config`` directory.
 
 Now lets activate it:
 
 .. code-block:: yaml
 
-    # behat.yml
+    # config/behat.yml
     default:
         extensions:
             Behat\MinkExtension\Extension:
